@@ -2,9 +2,19 @@
 
 public class newProgram {
 
-    public static void main(String[] args) {
-        System.out.println("I love pizzaa");
-        System.out.print("It's really good");
-    }
+	public static void main(String[] args) {
+		System.out.println("I love pizzaa.");
+		System.out.print("It's really good.");	
+		
+		// Learning to comment. 
+		// Aprendendo a comentar.
+		
+		/*
+		 *  Learning multi line comment.
+		 *  Aprendendo comentário de multi linha.
+		 * 
+		 * 
+		 */
+	}
 
- }
+}
