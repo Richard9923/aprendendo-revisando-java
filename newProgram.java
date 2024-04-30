@@ -3,7 +3,7 @@
 public class newProgram {
 
 	public static void main(String[] args) {
-		System.out.println("I love pizzaa.");
+		System.out.println("I love coffee.");
 		System.out.print("It's really good.");	
         System.out.println();
         System.out.println();
