@@ -13,6 +13,8 @@ public class generatingRandomValues {
         double randomDouble = random.nextDouble();
         boolean randomBoolean = random.nextBoolean();
 
+        
+
         System.out.println(randomNumber);
         System.out.println(randomDouble);
         System.out.println(randomBoolean);
