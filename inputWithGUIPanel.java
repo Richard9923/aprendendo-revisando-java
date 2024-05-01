@@ -11,6 +11,10 @@ public class inputWithGUIPanel {
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age."));
         JOptionPane.showMessageDialog(null, "You have "+age+" years old.");
 
+        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height."));
+        JOptionPane.showMessageDialog(null, "Your are "+height+" cm tall.");
+
+
 
 
 
