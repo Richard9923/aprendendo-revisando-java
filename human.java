@@ -12,6 +12,12 @@ public class human {
 
     }
 
+    void eat() {
+        System.out.println(this.name+" is eating");
+    }
+    void drink() {
+        System.out.println(this.name+" is drinking");
+    }
 
 
 }
