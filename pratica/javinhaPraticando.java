@@ -5,15 +5,16 @@ import java.util.Random;
 
 public class javinhaPraticando {
     
+   static int pontosJogador = 0;
+   static int pontosComputador = 0;
     public static void main(String[] args) {
 
-        int pontosJogador = 0;
-        int pontosComputador = 0;
+
         boolean jogoOn = true;
 
         while (jogoOn == true) {
            String resultado = gaming(playerChoice(), computerChoice());
-           resultadoDoJogo = resultado(resultado);
+           boolean resultadoDoJogo = resultado(resultado);
            jogoOn = resultadoDoJogo;
         }
         
@@ -61,8 +62,11 @@ public class javinhaPraticando {
 
         if (resultadoGaming.equals("venceu")) {
             pontosJogador += 1;
+
             if (pontosJogador == 3) {
                 System.out.println("Você venceu o jogo.");
+                System.out.println("Pontos do jogador: "+pontosJogador+".");
+                System.out.println("Pontos do computador: "+pontosJogador+".");
                 return false;
             }
             else {
@@ -72,12 +76,15 @@ public class javinhaPraticando {
         }
         else if (resultadoGaming.equals("perdeu")) {
             pontosComputador += 1;
+
             if (pontosComputador == 3) {
                 System.out.println("Você perdeu o jogo.");
                 return false;
             }
             else {
                 System.out.println("Continuando o  jogo.");
+                System.out.println("Pontos do jogador: "+pontosJogador+".");
+                System.out.println("Pontos do computador: "+pontosJogador+".");
                 return true;
             }
         }
