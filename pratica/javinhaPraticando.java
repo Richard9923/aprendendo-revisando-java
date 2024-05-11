@@ -16,6 +16,8 @@ public class javinhaPraticando {
            String resultado = gaming(playerChoice(), computerChoice());
            boolean resultadoDoJogo = resultado(resultado);
            jogoOn = resultadoDoJogo;
+           System.out.println("Pontos do jogador: "+pontosJogador+".");
+           System.out.println("Pontos do computador: "+pontosComputador+".");
         }
         
     }
@@ -65,8 +67,6 @@ public class javinhaPraticando {
 
             if (pontosJogador == 3) {
                 System.out.println("Você venceu o jogo.");
-                System.out.println("Pontos do jogador: "+pontosJogador+".");
-                System.out.println("Pontos do computador: "+pontosJogador+".");
                 return false;
             }
             else {
@@ -76,22 +76,18 @@ public class javinhaPraticando {
         }
         else if (resultadoGaming.equals("perdeu")) {
             pontosComputador += 1;
-
             if (pontosComputador == 3) {
                 System.out.println("Você perdeu o jogo.");
                 return false;
             }
             else {
                 System.out.println("Continuando o jogo.");
-                System.out.println("Pontos do jogador: "+pontosJogador+".");
-                System.out.println("Pontos do computador: "+pontosJogador+".");
+
                 return true;
             }
         }
         else {
             System.out.println("Ninguém pontuou.");
-            System.out.println("Pontos do jogador: "+pontosJogador+".");
-            System.out.println("Pontos do computador: "+pontosJogador+".");
             return true;
         }
 
