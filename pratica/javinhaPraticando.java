@@ -82,7 +82,7 @@ public class javinhaPraticando {
                 return false;
             }
             else {
-                System.out.println("Continuando o  jogo.");
+                System.out.println("Continuando o jogo.");
                 System.out.println("Pontos do jogador: "+pontosJogador+".");
                 System.out.println("Pontos do computador: "+pontosJogador+".");
                 return true;
@@ -90,6 +90,8 @@ public class javinhaPraticando {
         }
         else {
             System.out.println("Ninguém pontuou.");
+            System.out.println("Pontos do jogador: "+pontosJogador+".");
+            System.out.println("Pontos do computador: "+pontosJogador+".");
             return true;
         }
 
