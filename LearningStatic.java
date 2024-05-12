@@ -5,6 +5,7 @@ public class LearningStatic {
 
         friend friend1 = new friend("Spongebob");
         friend friend2 = new friend("Patrick");
+        friend friend3 = new friend("Molusco");
         
         System.out.println(friend.numberOfFriends);
 
