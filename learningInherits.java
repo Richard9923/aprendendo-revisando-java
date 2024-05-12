@@ -10,5 +10,8 @@ public class learningInherits {
 
         System.out.println(car.speed);
         System.out.println(bike.speed);
+
+        System.out.println(car.doors);
+        System.out.println(bike.pedals);
     }
 }
