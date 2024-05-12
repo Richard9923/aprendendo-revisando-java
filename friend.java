@@ -8,4 +8,10 @@ public class friend {
         numberOfFriends++;
 
     }
+
+    static void displayFriends() {
+        System.out.println("You have "+numberOfFriends+" Friends.");
+    }
 }
+
+
