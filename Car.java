@@ -1,8 +1,4 @@
-public class Car {
+public class Car extends Veiculo {
     
-    String name;
 
-    Car(String name) {
-        this.name = name;
-    }
 }
