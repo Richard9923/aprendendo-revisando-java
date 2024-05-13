@@ -10,5 +10,9 @@ public class Main {
         System.out.println(car.getMake());
         System.out.println(car.getModel());
         System.out.println(car.getYear());
+
+        car.setYear(2022);
+        
+
     }
 }
