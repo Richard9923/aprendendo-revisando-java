@@ -7,7 +7,7 @@ public class Main {
 
         try {
             FileWriter writer = new FileWriter("poem.txt");
-            writer.write("Roses are red");
+            writer.write("Roses are red \n Violets are blue ");
             writer.close();
 
             
