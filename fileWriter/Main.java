@@ -7,6 +7,9 @@ public class Main {
 
         try {
             FileWriter writer = new FileWriter("poem.txt");
+            writer.write("Roses are red");
+            writer.close();
+
             
         } catch (Exception e) {
             // TODO: handle exception
