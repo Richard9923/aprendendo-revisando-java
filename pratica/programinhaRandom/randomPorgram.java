@@ -4,7 +4,7 @@ public class randomPorgram {
     
     public static void main(String[] args) {
         
-        Car car1 = new Car("Camaro", 2020, 30000);
+        Car car1 = new Car("Camaro", 2020, 30000.00);
         System.out.println(car1.name);
         System.out.println(car1.year);
         System.out.println(car1.preco);
