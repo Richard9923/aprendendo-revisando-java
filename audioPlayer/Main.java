@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
         
         Scanner scanner = new Scanner(System.in);
-        File file = new File("level_up.wav");
+        File file = new File("audioPlayer/level_up.wav");
         AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
         Clip clip = AudioSystem.getClip();
         clip.open(audioStream);
