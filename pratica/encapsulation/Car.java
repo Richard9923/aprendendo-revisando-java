@@ -12,6 +12,11 @@ public class Car {
         this.setYear(year);
     }
 
+    Car(Car x) {
+        this.copy(x);
+
+    }
+
     public String getMake() {
         return make;
     }
@@ -34,6 +39,12 @@ public class Car {
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+    public void copy(Car x) {
+        this.setMake(x.getMake());
+        this.setModel(x.getModel());
+        this.setYear(x.getYear());
     }
 
 }
