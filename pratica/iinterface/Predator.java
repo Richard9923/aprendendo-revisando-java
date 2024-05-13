@@ -1,5 +1,7 @@
 package pratica.iinterface;
 
-public class Predator {
+public interface Predator {
+
+    void hunt();
     
 }

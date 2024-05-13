@@ -1,5 +1,7 @@
 package pratica.iinterface;
 
-public class Prey {
+public interface Prey {   
+
+    void flee();
     
 }
